@@ -1,0 +1,167 @@
+.columna1 {
+  float: left;
+  width: 30%;
+}
+
+.columna2 {
+  float: left;
+  width: 65%;
+}
+
+/*damos el tipo de letra y el tamaño de las misma */
+#tituloPri {
+  font-family: Arial Black;
+  font-size: 2em;
+  border-radius: 20px;
+}
+
+/*centramos el titulo */
+
+#tituloPri {
+  text-align: center;
+}
+
+/*definimos en ancho y el alto de la imagen del logo y de las demas que se agregaran al texto */
+#logo {
+  width: 100%;
+  height: 50%;
+}
+
+/* creamos un margen en el cuerpo de la pagina */
+
+body {
+  width: 88.2%;
+  max-width: 1500px;
+  padding-left: 0.9%;
+  padding-right: 0.9%;
+  margin: 0px auto auto auto;
+  clear: none;
+  float: none;
+  background-color: ivory;
+  -moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,
+    rgba(31, 61, 31, 0.9) -20px 0px 25px;
+  -webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,
+    rgba(31, 61, 31, 0.9) -20px 0px 25px;
+  box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,
+    rgba(31, 61, 31, 0.9) -20px 0px 25px;
+}
+
+/* agregamos un color al fondo */
+
+html {
+	background-color: burlywood;
+  }
+
+/*marco redondo en el menu */
+nav {
+  border: #cd5c5c 6px solid;
+  width: 350px;
+  height: 250px;
+  margin: 1px;
+  border-radius: 15px;
+  border-radius: 15px;
+}
+nav > ul {
+  color: blueviolet;
+  list-style-type: none;
+  font-size: 1.5em;
+}
+
+/*para aplicar pseudo clasesa enlacees de hipertexto */
+
+nav > ul > li > a:link,
+nav > ul > li > a:visited {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > a:active {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+/*color a las etiquetas h1 y h2 */
+h2,
+h1,h5 {
+  color: white;
+  background-color: #e5e541;
+}
+h3,
+h4,h5{
+  color: white;
+  background-color: #badf7b;
+  font-size: 1em;
+}
+
+/*aliniamos los parrafos*/
+/*aliniamos el texto */
+.columna1 {
+  text-align: justify;
+}
+
+.columna2 {
+  text-align: justify;
+}
+
+/*separacion de bordes de las columnas */
+
+.columna1 {
+  margin-right: 10px;
+}
+
+.columna2 {
+  margin-right: 10px;
+}
+
+/*ancho y alto del video de Youtube */
+
+iframe {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+/*le quitamos al titulo las caracteristicas de la etiqueta h1 */
+#tituloPri {
+  color: white;
+  background-color:indianred;
+}
+
+footer {
+  border-radius: 20px;
+
+  text-align: center;
+  font-size: 1em;
+  margin-top: 4%;
+  background-color:indianred;
+  color: white;
+  clear: both;
+  padding-bottom: 20px;
+}
+
+#im2{
+	width: 400px;
+	height: 300px;
+}
+#vid{
+	width: 400px;
+	height: 300px;
+}
+.boton{
+  
+  
+  
+	height:30px;
+	width:30px;
+   
+  }
+  #contac{
+	float:left;
+	height:80px;
+	width:80px;
+  }
+  #car{
+	 
+	height:80px;
+	width:80px;
+  }
