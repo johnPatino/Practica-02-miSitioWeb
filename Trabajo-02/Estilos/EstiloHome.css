@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Mystery+Quest");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: indianred;
+  width: 100%;
+  z-index: 100;
+}
+
+body {
+  width: 88.2%;
+  max-width: 1500px;
+  padding-left: 0.9%;
+  padding-right: 0.9%;
+  margin: 0px auto auto auto;
+  clear: none;
+  float: none;
+  background-color: ivory;
+  -moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,
+    rgba(31, 61, 31, 0.9) -20px 0px 25px;
+  -webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,
+    rgba(31, 61, 31, 0.9) -20px 0px 25px;
+  box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,
+    rgba(31, 61, 31, 0.9) -20px 0px 25px;
+}
+html {
+  background-color: burlywood;
+}
+#titulo {
+  color: blueviolet;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+
+  overflow: hidden; /* Limpiamos errores de float */
+
+  margin: 4px 1px 0px 200px;
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: blueviolet;
+  text-decoration: none;
+}
+
+#img1 {
+  float: left;
+  width: 300px;
+  height: 150px;
+}
+
+#articulo1 {
+  font-family: "Mystery Quest", cursive;
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin: 6em 15em 1em 1em;
+  width: 750px;
+  height: 250px;
+}
+#img2 {
+  float: right;
+  margin: -19em 6em;
+  width: 400px;
+  height: 300px;
+}
+#publi {
+  display: block; /*para centrar */
+  margin: auto;
+  width: 600px;
+  height: 300px;
+}
+
+#articulo2 {
+  font-family: "Mystery Quest", cursive;
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin: 1em 0em 4em 1em;
+}
+#piepagina {
+  border-radius: 20px;
+
+  text-align: center;
+  font-size: 1em;
+  margin-top: 4%;
+  background-color: #cd5c5c;
+
+  color: white;
+  clear: both;
+  padding-bottom: 20px;
+}
+
+#sec1 {
+  float: left;
+  font-family: "Mystery Quest", cursive;
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin: 1em 0em 4em 1em;
+}
+
+#ti1 {
+  text-align: center;
+}
+.boton{
+  
+  height:30px;
+  width:30px;
+ 
+}
+#contac{
+  float:left;
+  height:80px;
+  width:80px;
+}
+#car{
+   
+  height:80px;
+  width:80px;
+}
